@@ -1,0 +1,72 @@
+
+#NavBar
+{
+    background-color: #171717;
+    height: 80px;
+    width: 100%; /* para que cubra el 100% de la pantalla siempre*/
+    position: fixed; /*para que al scrollear se mantenga ahi el navbar*/
+    z-index:999;
+    opacity:0.9;
+        margin: -8px;
+
+
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+  list-style:none; 
+
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+#navli1,#navli2,#navli3,#navli4
+{
+    display:inline-block;
+    margin: 20px;
+    
+}
+
+#a1,#a2,#a3,#a4
+{
+    text-decoration: none;
+    color:white;
+    
+}
+#a1:hover,#a2:hover,#a3:hover,#a4:hover{
+    border-bottom:5px solid #0bb0e2;
+}
+
+h1{
+  font-weight: 1000;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  
+  display: flex;
+  justify-items: start;
+
+}
+
+h2{
+  font-weight: 700;
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#NavBar{
+  font-weight: 600;
+  font-size: 21px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  
+}
+#s{
+  font-weight: 900;
+  font-size: 45px;
+
+}

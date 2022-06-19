@@ -1,0 +1,19 @@
+#ContainerPage{
+    display: flex;
+    position: relative;
+
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+#hr {
+    position:absolute;
+    left:-25px;
+    width: 124px;
+    margin-top: 40px;
+    border: 1px solid rgba(0,86,255,1);
+}
+
+#titlepage{
+    color: white;
+}

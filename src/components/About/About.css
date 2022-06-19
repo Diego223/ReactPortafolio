@@ -1,0 +1,37 @@
+#aboutme{
+  background-color: black; 
+  margin-left: -8px;
+  margin-right: -8px; 
+}
+
+#img4{
+    height: 400px;
+    width: 250px;
+    border-radius: 10%;
+    margin-right: 200px;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#abouttext,#abouttexth{
+    color: white;
+    width: 47%;
+    margin-left: 10%;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    margin-top: 3%;
+    
+    
+}
+
+
+
+
+
+#AboutContainer{
+    display: flex;
+}
